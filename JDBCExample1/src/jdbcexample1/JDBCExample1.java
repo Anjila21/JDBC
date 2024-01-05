@@ -9,7 +9,7 @@ public class JDBCExample1 {
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/try", "root", "");
             Statement st = conn.createStatement();
             String query = "create table tabu(id int(30) primary key auto_increment, `name` varchar(30))";
-            int i = st.executeUpdate(query);
+            int i = st.executeUpdate(query);s
 
             String s = "insert into tabu(`name`) values ('anjila')";
             PreparedStatement ps = conn.prepareStatement(s);
