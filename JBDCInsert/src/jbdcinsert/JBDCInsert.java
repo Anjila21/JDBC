@@ -1,4 +1,4 @@
-
+//sql package
 import java.sql.*;
 
 public class JBDCInsert {
