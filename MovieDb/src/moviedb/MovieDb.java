@@ -61,9 +61,9 @@ import java.sql.*;
             conn.close();
             System.out.println("Interested Successfully");        
         }
-        catch(Exception ee)
+        catch(Exception ex)
         {
-            System.out.println(ee.toString());
+            System.out.println(ex.toString());
         }
     }
     public static void main(String[] args)
